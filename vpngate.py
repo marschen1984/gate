@@ -407,7 +407,7 @@ def build_outputs(results, raw_count, sstp_count, source):
     return data
 
 
-CHAIN_URL = os.environ.get("CHAIN_URL", "https://jerylihub.github.io/gate/chains.txt")
+CHAIN_URL = os.environ.get("CHAIN_URL", "https://marschen1984.github.io/gate/chains.txt")
 
 
 def build_chains_text(data):
@@ -466,7 +466,7 @@ EDGE_HOSTS = [
     if h.strip()
 ]
 
-HOSTS_URL = os.environ.get("HOSTS_URL", "https://jerylihub.github.io/gate/hosts.txt")
+HOSTS_URL = os.environ.get("HOSTS_URL", "https://marschen1984.github.io/gate/hosts.txt")
 
 
 def build_hosts_text(data):
@@ -522,10 +522,10 @@ def build_hosts_text(data):
 
 
 # edgetunnel 完整订阅 (vless://) 配置
-EDT_UUID = os.environ.get("EDT_UUID", "a664b457-d1aa-4671-bcdd-ad2eb31414ec")
-EDT_DOMAIN = os.environ.get("EDT_DOMAIN", "xi.xiaohe.gv.uy")
+EDT_UUID = os.environ.get("EDT_UUID", "57592755-d920-48c2-9aeb-687852fd5fac")
+EDT_DOMAIN = os.environ.get("EDT_DOMAIN", "marss.ccwu.cc")
 EDT_FINGERPRINT = os.environ.get("EDT_FINGERPRINT", "chrome")
-SUB_URL = os.environ.get("SUB_URL", "https://jerylihub.github.io/gate/sub.txt")
+SUB_URL = os.environ.get("SUB_URL", "https://marschen1984.github.io/gate/sub.txt")
 
 
 def _b64_secret_encode(plaintext, secret):
