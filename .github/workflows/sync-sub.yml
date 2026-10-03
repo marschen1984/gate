@@ -1,0 +1,32 @@
+name: Sync Subscription to Pages
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch subscription from Worker
+        run: |
+          curl -s --max-time 60 "https://sub-v3.cjf-12.workers.dev/" -o sub.yaml
+          # 验证是有效 YAML 且有节点
+          python3 -c "
+          import yaml, sys
+          d = yaml.safe_load(open('sub.yaml'))
+          assert len(d.get('proxies', [])) > 50, '节点太少，可能上游故障'
+          print(f\"OK: {len(d['proxies'])} 节点\")
+          "
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sub.yaml
+          git diff --staged --quiet || (git commit -m "sync subscription $(date -u +%Y-%m-%dT%H:%M:%SZ)" && git push)
