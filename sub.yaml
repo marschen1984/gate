@@ -1,0 +1,2989 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+ipv6: false
+unified-delay: true
+tcp-concurrent: true
+profile:
+  store-selected: true
+  store-fake-ip: true
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+  nameserver:
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+  proxy-server-nameserver:
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+  nameserver-policy:
+    geosite:cn:
+      - https://dns.alidns.com/dns-query
+      - https://223.5.5.5/dns-query
+proxies:
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇭🇰 V香港 01
+    port: 21001
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇭🇰 V香港 02
+    port: 21002
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇭🇰 V香港 03
+    port: 21003
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇭🇰 V香港 04
+    port: 21004
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇭🇰 V香港 05
+    port: 21005
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇭🇰 V香港 06
+    port: 21006
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇭🇰 V香港 07
+    port: 21007
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇭🇰 V香港 08
+    port: 21008
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇭🇰 V香港 09
+    port: 21009
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇭🇰 V香港 10
+    port: 21010
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇹🇼 V台湾 01
+    port: 22001
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇹🇼 V台湾 02
+    port: 22002
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇹🇼 V台湾 03
+    port: 22003
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇹🇼 V台湾 04
+    port: 22004
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇹🇼 V台湾 05
+    port: 22005
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇯🇵 V日本 01
+    port: 23001
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇯🇵 V日本 02
+    port: 23002
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇯🇵 V日本 03
+    port: 23003
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇯🇵 V日本 04
+    port: 23004
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇯🇵 V日本 05
+    port: 23005
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇸🇬 V新加坡 01
+    port: 24001
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇸🇬 V新加坡 02
+    port: 24002
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇸🇬 V新加坡 03
+    port: 24003
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇸🇬 V新加坡 04
+    port: 24004
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇸🇬 V新加坡 05
+    port: 24005
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇺🇸 V美国 01
+    port: 25001
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇺🇸 V美国 02
+    port: 25002
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇺🇸 V美国 03
+    port: 25003
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇺🇸 V美国 04
+    port: 25004
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇺🇸 V美国 05
+    port: 25005
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇺🇸 V美国 06
+    port: 25006
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇺🇸 V美国 07
+    port: 25007
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇨🇦 V加拿大
+    port: 26001
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇰🇷 V韩国
+    port: 26002
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇻🇳 V越南
+    port: 26003
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇰🇭 V柬埔寨
+    port: 26004
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇲🇾 V马来西亚
+    port: 26005
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇹🇭 V泰国
+    port: 26006
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇮🇳 V印度
+    port: 26007
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇧🇩 V孟加拉
+    port: 26008
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇳🇵 V尼泊尔
+    port: 26009
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇵🇭 V菲律宾
+    port: 26010
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇮🇩 V印度尼西亚
+    port: 26011
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇦🇺 V澳大利亚
+    port: 26012
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇳🇿 V新西兰
+    port: 26013
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇩🇪 V德国
+    port: 26014
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇫🇷 V法国
+    port: 26015
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇨🇭 V瑞士
+    port: 26016
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇬🇧 V英国
+    port: 26017
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇮🇪 V爱尔兰
+    port: 26018
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇮🇸 V冰岛
+    port: 26019
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇵🇱 V波兰
+    port: 26020
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇮🇹 V意大利
+    port: 26021
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇪🇸 V西班牙
+    port: 26022
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇳🇱 V荷兰
+    port: 26023
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇫🇮 V芬兰
+    port: 26024
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇦🇹 V奥地利
+    port: 26025
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇱🇹 V立陶宛
+    port: 26026
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇸🇪 V瑞典
+    port: 26027
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇬🇷 V希腊
+    port: 26028
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇱🇻 V拉脱维亚
+    port: 26029
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇳🇴 V挪威
+    port: 26030
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇩🇰 V丹麦
+    port: 26031
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇧🇪 V比利时
+    port: 26032
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇱🇺 V卢森堡
+    port: 26033
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇲🇰 V马其顿
+    port: 26034
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇦🇱 V阿尔巴尼亚
+    port: 26035
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇬🇪 V格鲁吉亚
+    port: 26036
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇵🇹 V葡萄牙
+    port: 26037
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇺🇦 V乌克兰
+    port: 26038
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇲🇩 V摩尔多瓦
+    port: 26039
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇪🇪 V爱沙尼亚
+    port: 26040
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇭🇷 V克罗地亚
+    port: 26041
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇸🇮 V斯洛文尼亚
+    port: 26042
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇷🇴 V罗马尼亚
+    port: 26043
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇷🇺 V俄罗斯
+    port: 26044
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇧🇬 V保加利亚
+    port: 26045
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇹🇷 V土耳其
+    port: 26046
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇷🇸 V塞尔维亚
+    port: 26047
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇪🇬 V埃及
+    port: 26048
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇦🇴 V安哥拉
+    port: 26049
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇳🇬 V尼日利亚
+    port: 26050
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇲🇦 V摩洛哥
+    port: 26051
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇿🇦 V南非
+    port: 26052
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇸🇦 V沙特阿拉伯
+    port: 26053
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇮🇶 V伊拉克
+    port: 26054
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇮🇱 V以色列
+    port: 26055
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇨🇾 V塞浦路斯
+    port: 26056
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇴🇲 V阿曼
+    port: 26057
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇦🇪 V阿拉伯联合酋长国
+    port: 26058
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇶🇦 V卡塔尔
+    port: 26059
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇵🇰 V巴基斯坦
+    port: 26060
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇺🇿 V乌兹别克斯坦
+    port: 26061
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇰🇿 V哈萨克斯坦
+    port: 26062
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇦🇷 V阿根廷
+    port: 26063
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇵🇪 V秘鲁
+    port: 26064
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇨🇴 V哥伦比亚
+    port: 26065
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇪🇨 V厄瓜多尔
+    port: 26066
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇨🇷 V哥斯达黎加
+    port: 26067
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇲🇽 V墨西哥
+    port: 26068
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇧🇴 V玻利维亚
+    port: 26072
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇨🇱 V智利
+    port: 26069
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇺🇾 V乌拉圭
+    port: 26070
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇧🇷 V巴西
+    port: 26071
+    reality-opts:
+      public-key: kCN-eBEaH2TtKGGozOXSWfzofl5ko45fMGyoLMTfsXw
+      short-id: 2226b50a0f5ab5d1
+      support-x25519mlkem768: true
+    server: soenfygghta.owolist.cn
+    servername: www.apple.com
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: edf82437-f061-30a5-8b12-4861eb7c6ffd
+  - name: 🇯🇵日本高速01|CTCU|0.5x
+    type: vless
+    server: cfyes.7770006.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: ""
+    client-fingerprint: safari
+    servername: jp1-lx.7770006.xyz
+    network: ws
+    ws-opts:
+      path: /liangxin/data/jp
+      headers:
+        Host: jp1-lx.7770006.xyz
+  - name: 🇯🇵日本高速02|CTCU|0.5x
+    type: vless
+    server: cfyes.7770006.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: ""
+    client-fingerprint: safari
+    servername: jp2-lx.7770006.xyz
+    network: ws
+    ws-opts:
+      path: /liangxin/data
+      headers:
+        Host: jp2-lx.7770006.xyz
+  - name: 🇭🇰香港高速01|BGP|CMCU
+    type: vless
+    server: aws-link1.lxyun.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    flow: xtls-rprx-vision
+    client-fingerprint: safari
+    servername: iosapps.itunes.apple.com
+    fingerprint: d5c39647e414c144b719bc49cb41c4b8f46f09f4cf26c863cae15c01d4a7b96a
+  - name: 🇭🇰香港高速02|BGP|CMCU
+    type: vless
+    server: aws-link2.lxyun.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    flow: xtls-rprx-vision
+    client-fingerprint: safari
+    servername: www.lamer.com.hk
+    fingerprint: af0f11574724e7ddd96f64eb77a450f71ce2de61ee5afd6f2e27ed7604a6a9b1
+  - name: 🇭🇰香港高速03|BGP|CMCU
+    type: vless
+    server: aws-link3.lxyun.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+    client-fingerprint: ios
+    servername: www.lamer.com.hk
+    reality-opts:
+      public-key: ux5T2jsYXnAMuf4eILTucbcX1xd1OwocOEkYetmUyAs
+      short-id: "3206e665"
+  - name: 🇭🇰香港高速04|BGP|CMCU
+    type: vless
+    server: aws-link4.lxyun.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+    client-fingerprint: ios
+    servername: www.lamer.com.hk
+    reality-opts:
+      public-key: wlh6mFICApoUIVqqQRBbS7o5X3sveqUJCRc54bH0XSg
+      short-id: a31b59fe
+  - name: 🇭🇰香港高速05|BGP|CMCU
+    type: vless
+    server: aws-link5.lxyun.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+    client-fingerprint: ios
+    servername: fastcdn.hoyoverse.com
+    reality-opts:
+      public-key: HfZeg7YPEWJMQKBXctbNZBuBAk1CW98FoJ7AEyCEdQQ
+      short-id: a49232a7
+  - name: 🇸🇬新加坡高速01|BGP|CTCUCM
+    type: vless
+    server: aws-link7.lxyun.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+    client-fingerprint: ios
+    servername: fastcdn.hoyoverse.com
+    reality-opts:
+      public-key: w7AGIp_u4slcX3JotLyiuaT05lawuzU3f1eL88RI53c
+      short-id: 1d77a374
+  - name: 🇸🇬新加坡高速02|BGP|CTCUCM
+    type: vless
+    server: aws-link8.lxyun.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+    client-fingerprint: ios
+    servername: iosapps.itunes.apple.com
+    reality-opts:
+      public-key: vDrdqD70aoQOIU5P5UU-h2h9wCu_tEOD4pGu8NOGvzA
+      short-id: 55c73a28
+  - name: 🇸🇬新加坡高速03|BGP|CTCUCM
+    type: vless
+    server: aws-link9.lxyun.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+    client-fingerprint: ios
+    servername: iosapps.itunes.apple.com
+    reality-opts:
+      public-key: ncsES25G1Nj31aY0kdaNrooqQOqqqaHLk8zbF2b4BGw
+      short-id: bef8fff6
+  - name: 🇸🇬新加坡高速04|BGP|CTCUCM
+    type: vless
+    server: aws-link30.lxyun.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+    client-fingerprint: safari
+    servername: www.lamer.com.hk
+    reality-opts:
+      public-key: NQboj96aHW_domplSIfIBqJpAnNN8rZokNYa-W-NdAo
+      short-id: fa6fb544
+  - name: 🇸🇬新加坡高速05|BGP|CTCUCM
+    type: vless
+    server: aws-link31.lxyun.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+    client-fingerprint: safari
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: wXayfckurSM2zWeis7OAL_QVGm9wBLr0WYp2zFtJFAE
+      short-id: c7487aeb
+  - name: 🇸🇬新加坡高速06|BGP|CTCU
+    type: vless
+    server: cfyes.7770008.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: ""
+    client-fingerprint: chrome
+    servername: lx-sg1.7770006.xyz
+    network: ws
+    ws-opts:
+      path: /liangxin/sg1
+      headers:
+        Host: lx-sg1.7770006.xyz
+  - name: 🇸🇬新加坡高速07|BGP|CTCU
+    type: vless
+    server: cfyes.7770008.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: ""
+    client-fingerprint: chrome
+    servername: lx-sg1.7770006.xyz
+    network: ws
+    ws-opts:
+      path: /liangxin/sg1
+      headers:
+        Host: lx-sg1.7770006.xyz
+  - name: 🇸🇬新加坡高速08|BGP|CTCU
+    type: vless
+    server: cfyes.7770008.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: ""
+    client-fingerprint: chrome
+    servername: lx-sg1.7770006.xyz
+    network: ws
+    ws-opts:
+      path: /liangxin/sg1
+      headers:
+        Host: lx-sg1.7770006.xyz
+  - name: 🇯🇵日本高速01|BGP|CUCM
+    type: vless
+    server: aws-link13.lxyun.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+    client-fingerprint: safari
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: AYnt6YQxdEGfpWjo25H9ZvgPp_WxRbGWSkaptwTZJ3M
+      short-id: 131baaed
+  - name: 🇯🇵日本高速02|BGP|CUCM
+    type: vless
+    server: aws-link14.lxyun.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+    client-fingerprint: ios
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: -nx1roqVG90gja9-412UcxR7tqdtdKqxuSHsSh03wm4
+      short-id: 93d482c0
+  - name: 🇯🇵日本高速03|BGP|CUCM
+    type: vless
+    server: aws-link19.lxyun.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+    client-fingerprint: safari
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: p6pNXigacmPazS1t76m66ia0DcFgAxOshOiPgzVvNGs
+      short-id: "44099498"
+  - name: 🇯🇵日本高速04|BGP|CUCM
+    type: vless
+    server: aws-link20.lxyun.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+    client-fingerprint: ios
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: QE5l0RUqs4OsH3j3u_xHm06-4NlILmQivZUJqiEx11o
+      short-id: "6314e825"
+  - name: 🇯🇵日本高速05|BGP|CUCM
+    type: vless
+    server: aws-link23.lxyun.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+    client-fingerprint: safari
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: dLmUAqcdy4Z7iucApd9zjOhkXTjl-xt_eHumShIYW0c
+      short-id: ba826a54
+  - name: 🇯🇵日本高速06|BGP|CTCU
+    type: vless
+    server: cfyes.7770006.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: ""
+    client-fingerprint: chrome
+    servername: jp3-lx.7770006.xyz
+    network: ws
+    ws-opts:
+      path: /liangxin/dash/jp
+      headers:
+        Host: jp3-lx.7770006.xyz
+  - name: 🇯🇵日本高速07|BGP|CTCU
+    type: vless
+    server: cfyes.7770006.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: ""
+    client-fingerprint: chrome
+    servername: jp3-lx.7770006.xyz
+    network: ws
+    ws-opts:
+      path: /liangxin/dash/jp
+      headers:
+        Host: jp3-lx.7770006.xyz
+  - name: 🇯🇵日本高速08|BGP|CTCU
+    type: vless
+    server: cfyes.7770006.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: ""
+    client-fingerprint: chrome
+    servername: jp4-lx.7770006.xyz
+    network: ws
+    ws-opts:
+      path: /liangxin/download/jp
+      headers:
+        Host: jp4-lx.7770006.xyz
+  - name: 🇯🇵日本高速09|BGP|CTCU
+    type: vless
+    server: cfyes.7770006.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: ""
+    client-fingerprint: chrome
+    servername: jp4-lx.7770006.xyz
+    network: ws
+    ws-opts:
+      path: /liangxin/download/jp
+      headers:
+        Host: jp4-lx.7770006.xyz
+  - name: 🇺🇸美国高速01|CTCU|0.1x
+    type: vless
+    server: cfyes.777078.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: ""
+    client-fingerprint: chrome
+    servername: lx-us1.777096.xyz
+    network: ws
+    ws-opts:
+      path: /liangxin/us
+      headers:
+        Host: lx-us1.777096.xyz
+  - name: 🇺🇸美国高速02|CTCU|0.1x
+    type: vless
+    server: cfyes.777078.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: ""
+    client-fingerprint: chrome
+    servername: lx-us2.777096.xyz
+    network: ws
+    ws-opts:
+      path: /liangxin/us
+      headers:
+        Host: lx-us2.777096.xyz
+  - name: 🇺🇸美国高速03|CTCU|0.1x
+    type: vless
+    server: cfyes.777078.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: ""
+    client-fingerprint: chrome
+    servername: lx-us3.777096.xyz
+    network: ws
+    ws-opts:
+      path: /liangxin/us
+      headers:
+        Host: lx-us3.777096.xyz
+  - name: 🇺🇸美国高速04|CTCU|0.1x
+    type: vless
+    server: cfyes.777078.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: ""
+    client-fingerprint: chrome
+    servername: lx-us4.777096.xyz
+    network: ws
+    ws-opts:
+      path: /liangxin/us
+      headers:
+        Host: lx-us4.777096.xyz
+  - name: 🇺🇸美国高速05|CTCU|0.1x
+    type: vless
+    server: cfyes.777078.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: ""
+    client-fingerprint: chrome
+    servername: lx-us5.777096.xyz
+    network: ws
+    ws-opts:
+      path: /liangxin/us
+      headers:
+        Host: lx-us5.777096.xyz
+  - name: 🇬🇧英国伦敦01|CTCU|0.1x
+    type: vless
+    server: cfyes.777078.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: ""
+    client-fingerprint: ios
+    servername: gb-lx.777096.xyz
+    network: ws
+    ws-opts:
+      path: /liangxin/gb1
+      headers:
+        Host: gb-lx.777096.xyz
+  - name: 🇬🇧英国伦敦02|CTCU|0.1x
+    type: vless
+    server: 62.164.143.252
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+    client-fingerprint: safari
+    servername: download-porter.hoyoverse.com
+    reality-opts:
+      public-key: a9I2uA3NNZA6uBAe3Tui9vZ8CG5MrMaYOifWrAdc0zg
+      short-id: a8609be8
+  - name: 🇺🇸美国洛杉矶01|流媒体|0.01x
+    type: vless
+    server: lxyus1.777078.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+    client-fingerprint: safari
+    servername: iosapps.itunes.apple.com
+    reality-opts:
+      public-key: ulU6wfyain_FQnYt23NGunTAfBQNLhIBY49mvekiQB0
+      short-id: ca032f81
+  - name: 🇺🇸美国洛杉矶02|流媒体|0.01x
+    type: vless
+    server: lxyus3.777078.xyz
+    port: 443
+    uuid: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+    client-fingerprint: safari
+    servername: iosapps.itunes.apple.com
+    reality-opts:
+      public-key: paFz5M87V_EcKgUk7C9MlHYCTkOMLTNVe-h-6mSHOAk
+      short-id: cffc91ca
+  - name: 🇸🇬新加坡专线01|BGP|流媒体
+    server: aws-linkhy9.lxyun.xyz
+    port: 60000
+    ports: 60000-65530
+    mport: 60000-65530
+    udp: true
+    skip-cert-verify: true
+    sni: iosapps.itunes.apple.com
+    type: hysteria2
+    password: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    fingerprint: 2b6c9b75b2ef903fbe66ee91d1801941dea0ddb5429505ae3bce65e2fb17ad45
+  - name: 🇸🇬新加坡专线02|BGP|流媒体
+    server: aws-linkhy10.lxyun.xyz
+    port: 60000
+    ports: 60000-65530
+    mport: 60000-65530
+    udp: true
+    skip-cert-verify: true
+    sni: iosapps.itunes.apple.com
+    type: hysteria2
+    password: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    fingerprint: 2b6c9b75b2ef903fbe66ee91d1801941dea0ddb5429505ae3bce65e2fb17ad45
+  - name: 🇸🇬新加坡专线03|BGP|流媒体
+    server: aws-linkhy11.lxyun.xyz
+    port: 60000
+    ports: 60000-65530
+    mport: 60000-65530
+    udp: true
+    skip-cert-verify: true
+    sni: iosapps.itunes.apple.com
+    type: hysteria2
+    password: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    fingerprint: dd9dd03d942400ad4c1400879bda98f4fa097183aa9a91a1423cdd42a3e183d7
+  - name: 🇸🇬新加坡专线04|BGP|流媒体
+    server: aws-linkhy12.lxyun.xyz
+    port: 60000
+    ports: 60000-65530
+    mport: 60000-65530
+    udp: true
+    skip-cert-verify: true
+    sni: iosapps.itunes.apple.com
+    type: hysteria2
+    password: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    fingerprint: 064255322ff7fa4fc225b44e72e5347fb9094fccc3bdd14ddb006118296b3fd3
+  - name: 🇯🇵日本专线01|BGP|流媒体
+    server: aws-linkhy15.lxyun.xyz
+    port: 60000
+    ports: 60000-65530
+    mport: 60000-65530
+    udp: true
+    skip-cert-verify: true
+    sni: bilibili-jp.biliimg.com
+    type: hysteria2
+    password: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    fingerprint: 95b89cf256ca58006f8d2f090bc8a6ca89b385f424852e82b59f2af384b142d7
+  - name: 🇯🇵日本专线02|BGP|流媒体
+    server: aws-linkhy16.lxyun.xyz
+    port: 60000
+    ports: 60000-65530
+    mport: 60000-65530
+    udp: true
+    skip-cert-verify: true
+    sni: bilibili-jp2.biliimg.com
+    type: hysteria2
+    password: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    fingerprint: 95b89cf256ca58006f8d2f090bc8a6ca89b385f424852e82b59f2af384b142d7
+  - name: 🇯🇵日本专线03|BGP|流媒体
+    server: aws-linkhy17.lxyun.xyz
+    port: 60000
+    ports: 60000-65530
+    mport: 60000-65530
+    udp: true
+    skip-cert-verify: true
+    sni: bilibili-jp3.biliimg.com
+    type: hysteria2
+    password: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    fingerprint: a52eee8669d92360a913a3fc101157e2bdc182947a377831abbccc31928decce
+  - name: 🇯🇵日本专线04|BGP|流媒体
+    server: aws-linkhy18.lxyun.xyz
+    port: 60000
+    ports: 60000-65530
+    mport: 60000-65530
+    udp: true
+    skip-cert-verify: true
+    sni: bilibili-jp4.biliimg.com
+    type: hysteria2
+    password: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    fingerprint: a52eee8669d92360a913a3fc101157e2bdc182947a377831abbccc31928decce
+  - name: 🇨🇳台湾专线01|BGP|流媒体
+    server: aws-linkhy22.lxyun.xyz
+    port: 443
+    udp: true
+    skip-cert-verify: true
+    sni: bilibili-tw.biliimg.com
+    type: hysteria2
+    password: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    fingerprint: 41bdd7599812d70f35e0fdafef794eb25b4f16d8735876038e414f9b8a29bf4c
+  - name: 🇬🇧英国伦敦01|流媒体|0.1x
+    server: 62.164.143.251
+    port: 60000
+    ports: 60000-65530
+    mport: 60000-65530
+    udp: true
+    skip-cert-verify: true
+    sni: bilibili-gb.biliimg.com
+    type: hysteria2
+    password: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    fingerprint: f7d837d9a8fd47ae4f18de5a72430fb02f7e4c6e37a8823db929a1e1b8792aa1
+  - name: 🇬🇧英国伦敦02|流媒体|0.1x
+    server: 62.164.143.251
+    port: 60000
+    ports: 60000-65530
+    mport: 60000-65530
+    udp: true
+    skip-cert-verify: true
+    sni: bilibili-gb.biliimg.com
+    type: hysteria2
+    password: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    fingerprint: f7d837d9a8fd47ae4f18de5a72430fb02f7e4c6e37a8823db929a1e1b8792aa1
+  - name: 🇺🇸美国01|流媒体|0.1x
+    server: lxyus1.777078.xyz
+    port: 443
+    udp: true
+    skip-cert-verify: true
+    sni: iosapps.itunes.apple.com
+    type: hysteria2
+    password: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    fingerprint: 4b10f090c73e5d841d56f81373b56168fd446a96adf85427738c6ef6c414b01b
+  - name: 🇺🇸美国02|流媒体|0.1x
+    server: lxyus2.777078.xyz
+    port: 443
+    udp: true
+    skip-cert-verify: true
+    sni: iosapps.itunes.apple.com
+    type: hysteria2
+    password: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    fingerprint: 58f2df9e444565f71bcdf624069d51ded4d699b648d59f1bf197e9aac859b9bc
+  - name: 🇺🇸美国03|流媒体|0.1x
+    server: lxyus3.777078.xyz
+    port: 443
+    udp: true
+    skip-cert-verify: true
+    sni: iosapps.itunes.apple.com
+    type: hysteria2
+    password: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    fingerprint: ee961590f9558c24cef02e44d1f54e9cd21fc929ae627f2e18fe5b3d67ca5561
+  - name: 🇺🇸美国04|流媒体|0.1x
+    server: lxyus4.777078.xyz
+    port: 443
+    udp: true
+    skip-cert-verify: true
+    sni: iosapps.itunes.apple.com
+    type: hysteria2
+    password: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    fingerprint: 4df742862fb9f529f841048ff99a914ae2ce83cbfa13ccf15618f72bc32f2650
+  - name: 🇺🇸美国05|流媒体|0.1x
+    server: 203.10.97.121
+    port: 60000
+    ports: 60000-65530
+    mport: 60000-65530
+    udp: true
+    skip-cert-verify: true
+    sni: www.apple.com
+    type: hysteria2
+    password: 2859fb3d-b2b9-46db-a0c3-3d031028da39
+    fingerprint: 7883472b634b93a7ec09a020fdbd4b1ac7b0accc7569028dfaeb54c6384677c1
+  - name: CF_V8_usa.visa.com_443 🇺🇸美国
+    type: vless
+    server: usa.visa.com
+    port: 443
+    uuid: 66541a71-b509-4cbd-b7c7-b85f3d20ae94
+    udp: false
+    tls: true
+    network: ws
+    servername: v.marschen.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: v.marschen.dpdns.org
+  - name: CF_V9_myanmar.visa.com_8443 🇲🇲缅甸
+    type: vless
+    server: myanmar.visa.com
+    port: 8443
+    uuid: 66541a71-b509-4cbd-b7c7-b85f3d20ae94
+    udp: false
+    tls: true
+    network: ws
+    servername: v.marschen.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: v.marschen.dpdns.org
+  - name: CF_V10_www.visa.com.tw_2053 🇹🇼台湾
+    type: vless
+    server: www.visa.com.tw
+    port: 2053
+    uuid: 66541a71-b509-4cbd-b7c7-b85f3d20ae94
+    udp: false
+    tls: true
+    network: ws
+    servername: v.marschen.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: v.marschen.dpdns.org
+  - name: CF_V11_www.visaeurope.ch_2083 🇨🇭瑞士
+    type: vless
+    server: www.visaeurope.ch
+    port: 2083
+    uuid: 66541a71-b509-4cbd-b7c7-b85f3d20ae94
+    udp: false
+    tls: true
+    network: ws
+    servername: v.marschen.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: v.marschen.dpdns.org
+  - name: CF_V12_www.visa.com.br_2087 🇧🇷巴西
+    type: vless
+    server: www.visa.com.br
+    port: 2087
+    uuid: 66541a71-b509-4cbd-b7c7-b85f3d20ae94
+    udp: false
+    tls: true
+    network: ws
+    servername: v.marschen.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: v.marschen.dpdns.org
+  - name: CF_V13_www.visasoutheasteurope.com_2096 🌍东南欧
+    type: vless
+    server: www.visasoutheasteurope.com
+    port: 2096
+    uuid: 66541a71-b509-4cbd-b7c7-b85f3d20ae94
+    udp: false
+    tls: true
+    network: ws
+    servername: v.marschen.dpdns.org
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: v.marschen.dpdns.org
+proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+      - DIRECT
+      - 🇭🇰 香港地区
+      - 🇹🇼 台湾地区
+      - 🇯🇵 日本地区
+      - 🇸🇬 新加坡地区
+      - 🇺🇸 美国地区
+      - 🇰🇷 韩国地区
+      - 🇬🇧 英国地区
+      - 🇭🇰 V香港 01
+      - 🇭🇰 V香港 02
+      - 🇭🇰 V香港 03
+      - 🇭🇰 V香港 04
+      - 🇭🇰 V香港 05
+      - 🇭🇰 V香港 06
+      - 🇭🇰 V香港 07
+      - 🇭🇰 V香港 08
+      - 🇭🇰 V香港 09
+      - 🇭🇰 V香港 10
+      - 🇹🇼 V台湾 01
+      - 🇹🇼 V台湾 02
+      - 🇹🇼 V台湾 03
+      - 🇹🇼 V台湾 04
+      - 🇹🇼 V台湾 05
+      - 🇯🇵 V日本 01
+      - 🇯🇵 V日本 02
+      - 🇯🇵 V日本 03
+      - 🇯🇵 V日本 04
+      - 🇯🇵 V日本 05
+      - 🇸🇬 V新加坡 01
+      - 🇸🇬 V新加坡 02
+      - 🇸🇬 V新加坡 03
+      - 🇸🇬 V新加坡 04
+      - 🇸🇬 V新加坡 05
+      - 🇺🇸 V美国 01
+      - 🇺🇸 V美国 02
+      - 🇺🇸 V美国 03
+      - 🇺🇸 V美国 04
+      - 🇺🇸 V美国 05
+      - 🇺🇸 V美国 06
+      - 🇺🇸 V美国 07
+      - 🇨🇦 V加拿大
+      - 🇰🇷 V韩国
+      - 🇻🇳 V越南
+      - 🇰🇭 V柬埔寨
+      - 🇲🇾 V马来西亚
+      - 🇹🇭 V泰国
+      - 🇮🇳 V印度
+      - 🇧🇩 V孟加拉
+      - 🇳🇵 V尼泊尔
+      - 🇵🇭 V菲律宾
+      - 🇮🇩 V印度尼西亚
+      - 🇦🇺 V澳大利亚
+      - 🇳🇿 V新西兰
+      - 🇩🇪 V德国
+      - 🇫🇷 V法国
+      - 🇨🇭 V瑞士
+      - 🇬🇧 V英国
+      - 🇮🇪 V爱尔兰
+      - 🇮🇸 V冰岛
+      - 🇵🇱 V波兰
+      - 🇮🇹 V意大利
+      - 🇪🇸 V西班牙
+      - 🇳🇱 V荷兰
+      - 🇫🇮 V芬兰
+      - 🇦🇹 V奥地利
+      - 🇱🇹 V立陶宛
+      - 🇸🇪 V瑞典
+      - 🇬🇷 V希腊
+      - 🇱🇻 V拉脱维亚
+      - 🇳🇴 V挪威
+      - 🇩🇰 V丹麦
+      - 🇧🇪 V比利时
+      - 🇱🇺 V卢森堡
+      - 🇲🇰 V马其顿
+      - 🇦🇱 V阿尔巴尼亚
+      - 🇬🇪 V格鲁吉亚
+      - 🇵🇹 V葡萄牙
+      - 🇺🇦 V乌克兰
+      - 🇲🇩 V摩尔多瓦
+      - 🇪🇪 V爱沙尼亚
+      - 🇭🇷 V克罗地亚
+      - 🇸🇮 V斯洛文尼亚
+      - 🇷🇴 V罗马尼亚
+      - 🇷🇺 V俄罗斯
+      - 🇧🇬 V保加利亚
+      - 🇹🇷 V土耳其
+      - 🇷🇸 V塞尔维亚
+      - 🇪🇬 V埃及
+      - 🇦🇴 V安哥拉
+      - 🇳🇬 V尼日利亚
+      - 🇲🇦 V摩洛哥
+      - 🇿🇦 V南非
+      - 🇸🇦 V沙特阿拉伯
+      - 🇮🇶 V伊拉克
+      - 🇮🇱 V以色列
+      - 🇨🇾 V塞浦路斯
+      - 🇴🇲 V阿曼
+      - 🇦🇪 V阿拉伯联合酋长国
+      - 🇶🇦 V卡塔尔
+      - 🇵🇰 V巴基斯坦
+      - 🇺🇿 V乌兹别克斯坦
+      - 🇰🇿 V哈萨克斯坦
+      - 🇦🇷 V阿根廷
+      - 🇵🇪 V秘鲁
+      - 🇨🇴 V哥伦比亚
+      - 🇪🇨 V厄瓜多尔
+      - 🇨🇷 V哥斯达黎加
+      - 🇲🇽 V墨西哥
+      - 🇧🇴 V玻利维亚
+      - 🇨🇱 V智利
+      - 🇺🇾 V乌拉圭
+      - 🇧🇷 V巴西
+      - 🇯🇵日本高速01|CTCU|0.5x
+      - 🇯🇵日本高速02|CTCU|0.5x
+      - 🇭🇰香港高速01|BGP|CMCU
+      - 🇭🇰香港高速02|BGP|CMCU
+      - 🇭🇰香港高速03|BGP|CMCU
+      - 🇭🇰香港高速04|BGP|CMCU
+      - 🇭🇰香港高速05|BGP|CMCU
+      - 🇸🇬新加坡高速01|BGP|CTCUCM
+      - 🇸🇬新加坡高速02|BGP|CTCUCM
+      - 🇸🇬新加坡高速03|BGP|CTCUCM
+      - 🇸🇬新加坡高速04|BGP|CTCUCM
+      - 🇸🇬新加坡高速05|BGP|CTCUCM
+      - 🇸🇬新加坡高速06|BGP|CTCU
+      - 🇸🇬新加坡高速07|BGP|CTCU
+      - 🇸🇬新加坡高速08|BGP|CTCU
+      - 🇯🇵日本高速01|BGP|CUCM
+      - 🇯🇵日本高速02|BGP|CUCM
+      - 🇯🇵日本高速03|BGP|CUCM
+      - 🇯🇵日本高速04|BGP|CUCM
+      - 🇯🇵日本高速05|BGP|CUCM
+      - 🇯🇵日本高速06|BGP|CTCU
+      - 🇯🇵日本高速07|BGP|CTCU
+      - 🇯🇵日本高速08|BGP|CTCU
+      - 🇯🇵日本高速09|BGP|CTCU
+      - 🇺🇸美国高速01|CTCU|0.1x
+      - 🇺🇸美国高速02|CTCU|0.1x
+      - 🇺🇸美国高速03|CTCU|0.1x
+      - 🇺🇸美国高速04|CTCU|0.1x
+      - 🇺🇸美国高速05|CTCU|0.1x
+      - 🇬🇧英国伦敦01|CTCU|0.1x
+      - 🇬🇧英国伦敦02|CTCU|0.1x
+      - 🇺🇸美国洛杉矶01|流媒体|0.01x
+      - 🇺🇸美国洛杉矶02|流媒体|0.01x
+      - 🇸🇬新加坡专线01|BGP|流媒体
+      - 🇸🇬新加坡专线02|BGP|流媒体
+      - 🇸🇬新加坡专线03|BGP|流媒体
+      - 🇸🇬新加坡专线04|BGP|流媒体
+      - 🇯🇵日本专线01|BGP|流媒体
+      - 🇯🇵日本专线02|BGP|流媒体
+      - 🇯🇵日本专线03|BGP|流媒体
+      - 🇯🇵日本专线04|BGP|流媒体
+      - 🇨🇳台湾专线01|BGP|流媒体
+      - 🇬🇧英国伦敦01|流媒体|0.1x
+      - 🇬🇧英国伦敦02|流媒体|0.1x
+      - 🇺🇸美国01|流媒体|0.1x
+      - 🇺🇸美国02|流媒体|0.1x
+      - 🇺🇸美国03|流媒体|0.1x
+      - 🇺🇸美国04|流媒体|0.1x
+      - 🇺🇸美国05|流媒体|0.1x
+      - CF_V8_usa.visa.com_443 🇺🇸美国
+      - CF_V9_myanmar.visa.com_8443 🇲🇲缅甸
+      - CF_V10_www.visa.com.tw_2053 🇹🇼台湾
+      - CF_V11_www.visaeurope.ch_2083 🇨🇭瑞士
+      - CF_V12_www.visa.com.br_2087 🇧🇷巴西
+      - CF_V13_www.visasoutheasteurope.com_2096 🌍东南欧
+  - name: 🇭🇰 香港地区
+    type: select
+    proxies:
+      - 🇭🇰 香港自动
+      - 🇭🇰 V香港 01
+      - 🇭🇰 V香港 02
+      - 🇭🇰 V香港 03
+      - 🇭🇰 V香港 04
+      - 🇭🇰 V香港 05
+      - 🇭🇰 V香港 06
+      - 🇭🇰 V香港 07
+      - 🇭🇰 V香港 08
+      - 🇭🇰 V香港 09
+      - 🇭🇰 V香港 10
+      - 🇭🇰香港高速01|BGP|CMCU
+      - 🇭🇰香港高速02|BGP|CMCU
+      - 🇭🇰香港高速03|BGP|CMCU
+      - 🇭🇰香港高速04|BGP|CMCU
+      - 🇭🇰香港高速05|BGP|CMCU
+  - name: 🇹🇼 台湾地区
+    type: select
+    proxies:
+      - 🇹🇼 台湾自动
+      - 🇹🇼 V台湾 01
+      - 🇹🇼 V台湾 02
+      - 🇹🇼 V台湾 03
+      - 🇹🇼 V台湾 04
+      - 🇹🇼 V台湾 05
+      - CF_V10_www.visa.com.tw_2053 🇹🇼台湾
+  - name: 🇯🇵 日本地区
+    type: select
+    proxies:
+      - 🇯🇵 日本自动
+      - 🇯🇵 V日本 01
+      - 🇯🇵 V日本 02
+      - 🇯🇵 V日本 03
+      - 🇯🇵 V日本 04
+      - 🇯🇵 V日本 05
+      - 🇯🇵日本高速01|CTCU|0.5x
+      - 🇯🇵日本高速02|CTCU|0.5x
+      - 🇯🇵日本高速01|BGP|CUCM
+      - 🇯🇵日本高速02|BGP|CUCM
+      - 🇯🇵日本高速03|BGP|CUCM
+      - 🇯🇵日本高速04|BGP|CUCM
+      - 🇯🇵日本高速05|BGP|CUCM
+      - 🇯🇵日本高速06|BGP|CTCU
+      - 🇯🇵日本高速07|BGP|CTCU
+      - 🇯🇵日本高速08|BGP|CTCU
+      - 🇯🇵日本高速09|BGP|CTCU
+      - 🇯🇵日本专线01|BGP|流媒体
+      - 🇯🇵日本专线02|BGP|流媒体
+      - 🇯🇵日本专线03|BGP|流媒体
+      - 🇯🇵日本专线04|BGP|流媒体
+  - name: 🇸🇬 新加坡地区
+    type: select
+    proxies:
+      - 🇸🇬 新加坡自动
+      - 🇸🇬 V新加坡 01
+      - 🇸🇬 V新加坡 02
+      - 🇸🇬 V新加坡 03
+      - 🇸🇬 V新加坡 04
+      - 🇸🇬 V新加坡 05
+      - 🇸🇬新加坡高速01|BGP|CTCUCM
+      - 🇸🇬新加坡高速02|BGP|CTCUCM
+      - 🇸🇬新加坡高速03|BGP|CTCUCM
+      - 🇸🇬新加坡高速04|BGP|CTCUCM
+      - 🇸🇬新加坡高速05|BGP|CTCUCM
+      - 🇸🇬新加坡高速06|BGP|CTCU
+      - 🇸🇬新加坡高速07|BGP|CTCU
+      - 🇸🇬新加坡高速08|BGP|CTCU
+      - 🇸🇬新加坡专线01|BGP|流媒体
+      - 🇸🇬新加坡专线02|BGP|流媒体
+      - 🇸🇬新加坡专线03|BGP|流媒体
+      - 🇸🇬新加坡专线04|BGP|流媒体
+  - name: 🇺🇸 美国地区
+    type: select
+    proxies:
+      - 🇺🇸 美国自动
+      - 🇺🇸 V美国 01
+      - 🇺🇸 V美国 02
+      - 🇺🇸 V美国 03
+      - 🇺🇸 V美国 04
+      - 🇺🇸 V美国 05
+      - 🇺🇸 V美国 06
+      - 🇺🇸 V美国 07
+      - 🇺🇸美国高速01|CTCU|0.1x
+      - 🇺🇸美国高速02|CTCU|0.1x
+      - 🇺🇸美国高速03|CTCU|0.1x
+      - 🇺🇸美国高速04|CTCU|0.1x
+      - 🇺🇸美国高速05|CTCU|0.1x
+      - 🇺🇸美国洛杉矶01|流媒体|0.01x
+      - 🇺🇸美国洛杉矶02|流媒体|0.01x
+      - 🇺🇸美国01|流媒体|0.1x
+      - 🇺🇸美国02|流媒体|0.1x
+      - 🇺🇸美国03|流媒体|0.1x
+      - 🇺🇸美国04|流媒体|0.1x
+      - 🇺🇸美国05|流媒体|0.1x
+      - CF_V8_usa.visa.com_443 🇺🇸美国
+  - name: 🇰🇷 韩国地区
+    type: select
+    proxies:
+      - 🇰🇷 韩国自动
+      - 🇰🇷 V韩国
+  - name: 🇬🇧 英国地区
+    type: select
+    proxies:
+      - 🇬🇧 英国自动
+      - 🇬🇧 V英国
+      - 🇬🇧英国伦敦01|CTCU|0.1x
+      - 🇬🇧英国伦敦02|CTCU|0.1x
+      - 🇬🇧英国伦敦01|流媒体|0.1x
+      - 🇬🇧英国伦敦02|流媒体|0.1x
+  - name: 🎬 Netflix
+    type: select
+    proxies: &a1
+      - Proxy
+      - DIRECT
+      - 🇭🇰 香港地区
+      - 🇹🇼 台湾地区
+      - 🇯🇵 日本地区
+      - 🇸🇬 新加坡地区
+      - 🇺🇸 美国地区
+      - 🇰🇷 韩国地区
+      - 🇬🇧 英国地区
+      - 🇭🇰 V香港 01
+      - 🇭🇰 V香港 02
+      - 🇭🇰 V香港 03
+      - 🇭🇰 V香港 04
+      - 🇭🇰 V香港 05
+      - 🇭🇰 V香港 06
+      - 🇭🇰 V香港 07
+      - 🇭🇰 V香港 08
+      - 🇭🇰 V香港 09
+      - 🇭🇰 V香港 10
+      - 🇹🇼 V台湾 01
+      - 🇹🇼 V台湾 02
+      - 🇹🇼 V台湾 03
+      - 🇹🇼 V台湾 04
+      - 🇹🇼 V台湾 05
+      - 🇯🇵 V日本 01
+      - 🇯🇵 V日本 02
+      - 🇯🇵 V日本 03
+      - 🇯🇵 V日本 04
+      - 🇯🇵 V日本 05
+      - 🇸🇬 V新加坡 01
+      - 🇸🇬 V新加坡 02
+      - 🇸🇬 V新加坡 03
+      - 🇸🇬 V新加坡 04
+      - 🇸🇬 V新加坡 05
+      - 🇺🇸 V美国 01
+      - 🇺🇸 V美国 02
+      - 🇺🇸 V美国 03
+      - 🇺🇸 V美国 04
+      - 🇺🇸 V美国 05
+      - 🇺🇸 V美国 06
+      - 🇺🇸 V美国 07
+      - 🇨🇦 V加拿大
+      - 🇰🇷 V韩国
+      - 🇻🇳 V越南
+      - 🇰🇭 V柬埔寨
+      - 🇲🇾 V马来西亚
+      - 🇹🇭 V泰国
+      - 🇮🇳 V印度
+      - 🇧🇩 V孟加拉
+      - 🇳🇵 V尼泊尔
+      - 🇵🇭 V菲律宾
+      - 🇮🇩 V印度尼西亚
+      - 🇦🇺 V澳大利亚
+      - 🇳🇿 V新西兰
+      - 🇩🇪 V德国
+      - 🇫🇷 V法国
+      - 🇨🇭 V瑞士
+      - 🇬🇧 V英国
+      - 🇮🇪 V爱尔兰
+      - 🇮🇸 V冰岛
+      - 🇵🇱 V波兰
+      - 🇮🇹 V意大利
+      - 🇪🇸 V西班牙
+      - 🇳🇱 V荷兰
+      - 🇫🇮 V芬兰
+      - 🇦🇹 V奥地利
+      - 🇱🇹 V立陶宛
+      - 🇸🇪 V瑞典
+      - 🇬🇷 V希腊
+      - 🇱🇻 V拉脱维亚
+      - 🇳🇴 V挪威
+      - 🇩🇰 V丹麦
+      - 🇧🇪 V比利时
+      - 🇱🇺 V卢森堡
+      - 🇲🇰 V马其顿
+      - 🇦🇱 V阿尔巴尼亚
+      - 🇬🇪 V格鲁吉亚
+      - 🇵🇹 V葡萄牙
+      - 🇺🇦 V乌克兰
+      - 🇲🇩 V摩尔多瓦
+      - 🇪🇪 V爱沙尼亚
+      - 🇭🇷 V克罗地亚
+      - 🇸🇮 V斯洛文尼亚
+      - 🇷🇴 V罗马尼亚
+      - 🇷🇺 V俄罗斯
+      - 🇧🇬 V保加利亚
+      - 🇹🇷 V土耳其
+      - 🇷🇸 V塞尔维亚
+      - 🇪🇬 V埃及
+      - 🇦🇴 V安哥拉
+      - 🇳🇬 V尼日利亚
+      - 🇲🇦 V摩洛哥
+      - 🇿🇦 V南非
+      - 🇸🇦 V沙特阿拉伯
+      - 🇮🇶 V伊拉克
+      - 🇮🇱 V以色列
+      - 🇨🇾 V塞浦路斯
+      - 🇴🇲 V阿曼
+      - 🇦🇪 V阿拉伯联合酋长国
+      - 🇶🇦 V卡塔尔
+      - 🇵🇰 V巴基斯坦
+      - 🇺🇿 V乌兹别克斯坦
+      - 🇰🇿 V哈萨克斯坦
+      - 🇦🇷 V阿根廷
+      - 🇵🇪 V秘鲁
+      - 🇨🇴 V哥伦比亚
+      - 🇪🇨 V厄瓜多尔
+      - 🇨🇷 V哥斯达黎加
+      - 🇲🇽 V墨西哥
+      - 🇧🇴 V玻利维亚
+      - 🇨🇱 V智利
+      - 🇺🇾 V乌拉圭
+      - 🇧🇷 V巴西
+      - 🇯🇵日本高速01|CTCU|0.5x
+      - 🇯🇵日本高速02|CTCU|0.5x
+      - 🇭🇰香港高速01|BGP|CMCU
+      - 🇭🇰香港高速02|BGP|CMCU
+      - 🇭🇰香港高速03|BGP|CMCU
+      - 🇭🇰香港高速04|BGP|CMCU
+      - 🇭🇰香港高速05|BGP|CMCU
+      - 🇸🇬新加坡高速01|BGP|CTCUCM
+      - 🇸🇬新加坡高速02|BGP|CTCUCM
+      - 🇸🇬新加坡高速03|BGP|CTCUCM
+      - 🇸🇬新加坡高速04|BGP|CTCUCM
+      - 🇸🇬新加坡高速05|BGP|CTCUCM
+      - 🇸🇬新加坡高速06|BGP|CTCU
+      - 🇸🇬新加坡高速07|BGP|CTCU
+      - 🇸🇬新加坡高速08|BGP|CTCU
+      - 🇯🇵日本高速01|BGP|CUCM
+      - 🇯🇵日本高速02|BGP|CUCM
+      - 🇯🇵日本高速03|BGP|CUCM
+      - 🇯🇵日本高速04|BGP|CUCM
+      - 🇯🇵日本高速05|BGP|CUCM
+      - 🇯🇵日本高速06|BGP|CTCU
+      - 🇯🇵日本高速07|BGP|CTCU
+      - 🇯🇵日本高速08|BGP|CTCU
+      - 🇯🇵日本高速09|BGP|CTCU
+      - 🇺🇸美国高速01|CTCU|0.1x
+      - 🇺🇸美国高速02|CTCU|0.1x
+      - 🇺🇸美国高速03|CTCU|0.1x
+      - 🇺🇸美国高速04|CTCU|0.1x
+      - 🇺🇸美国高速05|CTCU|0.1x
+      - 🇬🇧英国伦敦01|CTCU|0.1x
+      - 🇬🇧英国伦敦02|CTCU|0.1x
+      - 🇺🇸美国洛杉矶01|流媒体|0.01x
+      - 🇺🇸美国洛杉矶02|流媒体|0.01x
+      - 🇸🇬新加坡专线01|BGP|流媒体
+      - 🇸🇬新加坡专线02|BGP|流媒体
+      - 🇸🇬新加坡专线03|BGP|流媒体
+      - 🇸🇬新加坡专线04|BGP|流媒体
+      - 🇯🇵日本专线01|BGP|流媒体
+      - 🇯🇵日本专线02|BGP|流媒体
+      - 🇯🇵日本专线03|BGP|流媒体
+      - 🇯🇵日本专线04|BGP|流媒体
+      - 🇨🇳台湾专线01|BGP|流媒体
+      - 🇬🇧英国伦敦01|流媒体|0.1x
+      - 🇬🇧英国伦敦02|流媒体|0.1x
+      - 🇺🇸美国01|流媒体|0.1x
+      - 🇺🇸美国02|流媒体|0.1x
+      - 🇺🇸美国03|流媒体|0.1x
+      - 🇺🇸美国04|流媒体|0.1x
+      - 🇺🇸美国05|流媒体|0.1x
+      - CF_V8_usa.visa.com_443 🇺🇸美国
+      - CF_V9_myanmar.visa.com_8443 🇲🇲缅甸
+      - CF_V10_www.visa.com.tw_2053 🇹🇼台湾
+      - CF_V11_www.visaeurope.ch_2083 🇨🇭瑞士
+      - CF_V12_www.visa.com.br_2087 🇧🇷巴西
+      - CF_V13_www.visasoutheasteurope.com_2096 🌍东南欧
+  - name: 📺 Disney+
+    type: select
+    proxies: *a1
+  - name: 📹 YouTube
+    type: select
+    proxies: *a1
+  - name: 🤖 AI
+    type: select
+    proxies: *a1
+  - name: 🍎 Apple
+    type: select
+    proxies: *a1
+  - name: ✈️ Telegram
+    type: select
+    proxies: *a1
+  - name: 🎮 Steam
+    type: select
+    proxies: *a1
+  - name: 🎵 TikTok
+    type: select
+    proxies: *a1
+  - name: 🎶 Spotify
+    type: select
+    proxies: *a1
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies: *a1
+  - name: 🇭🇰 香港自动
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 900
+    tolerance: 50
+    proxies:
+      - 🇭🇰 V香港 01
+      - 🇭🇰 V香港 02
+      - 🇭🇰 V香港 03
+      - 🇭🇰 V香港 04
+      - 🇭🇰 V香港 05
+      - 🇭🇰 V香港 06
+      - 🇭🇰 V香港 07
+      - 🇭🇰 V香港 08
+      - 🇭🇰 V香港 09
+      - 🇭🇰 V香港 10
+      - 🇭🇰香港高速01|BGP|CMCU
+      - 🇭🇰香港高速02|BGP|CMCU
+      - 🇭🇰香港高速03|BGP|CMCU
+      - 🇭🇰香港高速04|BGP|CMCU
+      - 🇭🇰香港高速05|BGP|CMCU
+  - name: 🇹🇼 台湾自动
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 900
+    tolerance: 50
+    proxies:
+      - 🇹🇼 V台湾 01
+      - 🇹🇼 V台湾 02
+      - 🇹🇼 V台湾 03
+      - 🇹🇼 V台湾 04
+      - 🇹🇼 V台湾 05
+      - CF_V10_www.visa.com.tw_2053 🇹🇼台湾
+  - name: 🇯🇵 日本自动
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 900
+    tolerance: 50
+    proxies:
+      - 🇯🇵 V日本 01
+      - 🇯🇵 V日本 02
+      - 🇯🇵 V日本 03
+      - 🇯🇵 V日本 04
+      - 🇯🇵 V日本 05
+      - 🇯🇵日本高速01|CTCU|0.5x
+      - 🇯🇵日本高速02|CTCU|0.5x
+      - 🇯🇵日本高速01|BGP|CUCM
+      - 🇯🇵日本高速02|BGP|CUCM
+      - 🇯🇵日本高速03|BGP|CUCM
+      - 🇯🇵日本高速04|BGP|CUCM
+      - 🇯🇵日本高速05|BGP|CUCM
+      - 🇯🇵日本高速06|BGP|CTCU
+      - 🇯🇵日本高速07|BGP|CTCU
+      - 🇯🇵日本高速08|BGP|CTCU
+      - 🇯🇵日本高速09|BGP|CTCU
+      - 🇯🇵日本专线01|BGP|流媒体
+      - 🇯🇵日本专线02|BGP|流媒体
+      - 🇯🇵日本专线03|BGP|流媒体
+      - 🇯🇵日本专线04|BGP|流媒体
+  - name: 🇸🇬 新加坡自动
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 900
+    tolerance: 50
+    proxies:
+      - 🇸🇬 V新加坡 01
+      - 🇸🇬 V新加坡 02
+      - 🇸🇬 V新加坡 03
+      - 🇸🇬 V新加坡 04
+      - 🇸🇬 V新加坡 05
+      - 🇸🇬新加坡高速01|BGP|CTCUCM
+      - 🇸🇬新加坡高速02|BGP|CTCUCM
+      - 🇸🇬新加坡高速03|BGP|CTCUCM
+      - 🇸🇬新加坡高速04|BGP|CTCUCM
+      - 🇸🇬新加坡高速05|BGP|CTCUCM
+      - 🇸🇬新加坡高速06|BGP|CTCU
+      - 🇸🇬新加坡高速07|BGP|CTCU
+      - 🇸🇬新加坡高速08|BGP|CTCU
+      - 🇸🇬新加坡专线01|BGP|流媒体
+      - 🇸🇬新加坡专线02|BGP|流媒体
+      - 🇸🇬新加坡专线03|BGP|流媒体
+      - 🇸🇬新加坡专线04|BGP|流媒体
+  - name: 🇺🇸 美国自动
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 900
+    tolerance: 50
+    proxies:
+      - 🇺🇸 V美国 01
+      - 🇺🇸 V美国 02
+      - 🇺🇸 V美国 03
+      - 🇺🇸 V美国 04
+      - 🇺🇸 V美国 05
+      - 🇺🇸 V美国 06
+      - 🇺🇸 V美国 07
+      - 🇺🇸美国高速01|CTCU|0.1x
+      - 🇺🇸美国高速02|CTCU|0.1x
+      - 🇺🇸美国高速03|CTCU|0.1x
+      - 🇺🇸美国高速04|CTCU|0.1x
+      - 🇺🇸美国高速05|CTCU|0.1x
+      - 🇺🇸美国洛杉矶01|流媒体|0.01x
+      - 🇺🇸美国洛杉矶02|流媒体|0.01x
+      - 🇺🇸美国01|流媒体|0.1x
+      - 🇺🇸美国02|流媒体|0.1x
+      - 🇺🇸美国03|流媒体|0.1x
+      - 🇺🇸美国04|流媒体|0.1x
+      - 🇺🇸美国05|流媒体|0.1x
+      - CF_V8_usa.visa.com_443 🇺🇸美国
+  - name: 🇰🇷 韩国自动
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 900
+    tolerance: 50
+    proxies:
+      - 🇰🇷 V韩国
+  - name: 🇬🇧 英国自动
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 900
+    tolerance: 50
+    proxies:
+      - 🇬🇧 V英国
+      - 🇬🇧英国伦敦01|CTCU|0.1x
+      - 🇬🇧英国伦敦02|CTCU|0.1x
+      - 🇬🇧英国伦敦01|流媒体|0.1x
+      - 🇬🇧英国伦敦02|流媒体|0.1x
+rules:
+  - GEOIP,LAN,DIRECT
+  - DOMAIN-SUFFIX,workers.dev,DIRECT
+  - IP-CIDR,91.108.56.0/22,✈️ Telegram,no-resolve
+  - IP-CIDR,91.108.4.0/22,✈️ Telegram,no-resolve
+  - IP-CIDR,149.154.160.0/20,✈️ Telegram,no-resolve
+  - IP-CIDR6,2001:b28:f23d::/48,✈️ Telegram,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,✈️ Telegram,no-resolve
+  - DOMAIN-SUFFIX,telegram.org,✈️ Telegram
+  - DOMAIN-SUFFIX,t.me,✈️ Telegram
+  - DOMAIN-SUFFIX,telegram.me,✈️ Telegram
+  - DOMAIN-SUFFIX,netflix.com,🎬 Netflix
+  - DOMAIN-SUFFIX,netflix.net,🎬 Netflix
+  - DOMAIN-SUFFIX,nflxext.com,🎬 Netflix
+  - DOMAIN-SUFFIX,nflximg.com,🎬 Netflix
+  - DOMAIN-SUFFIX,nflximg.net,🎬 Netflix
+  - DOMAIN-SUFFIX,nflxvideo.net,🎬 Netflix
+  - DOMAIN-SUFFIX,disneyplus.com,📺 Disney+
+  - DOMAIN-SUFFIX,disney-plus.net,📺 Disney+
+  - DOMAIN-SUFFIX,dssott.com,📺 Disney+
+  - DOMAIN-SUFFIX,disneyplus.bn5x.net,📺 Disney+
+  - DOMAIN-SUFFIX,youtube.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtu.be,📹 YouTube
+  - DOMAIN-SUFFIX,googlevideo.com,📹 YouTube
+  - DOMAIN-SUFFIX,ytimg.com,📹 YouTube
+  - DOMAIN-SUFFIX,openai.com,🤖 AI
+  - DOMAIN-SUFFIX,chatgpt.com,🤖 AI
+  - DOMAIN-SUFFIX,oaistatic.com,🤖 AI
+  - DOMAIN-SUFFIX,oaiusercontent.com,🤖 AI
+  - DOMAIN-SUFFIX,anthropic.com,🤖 AI
+  - DOMAIN-SUFFIX,claude.ai,🤖 AI
+  - DOMAIN-SUFFIX,gemini.google.com,🤖 AI
+  - DOMAIN-SUFFIX,perplexity.ai,🤖 AI
+  - DOMAIN-SUFFIX,poe.com,🤖 AI
+  - DOMAIN-SUFFIX,copilot.microsoft.com,🤖 AI
+  - DOMAIN-SUFFIX,tiktok.com,🎵 TikTok
+  - DOMAIN-SUFFIX,tiktokv.com,🎵 TikTok
+  - DOMAIN-SUFFIX,tiktokcdn.com,🎵 TikTok
+  - DOMAIN-SUFFIX,musical.ly,🎵 TikTok
+  - DOMAIN-SUFFIX,muscdn.com,🎵 TikTok
+  - DOMAIN-SUFFIX,spotify.com,🎶 Spotify
+  - DOMAIN-SUFFIX,scdn.co,🎶 Spotify
+  - DOMAIN-SUFFIX,spotifycdn.com,🎶 Spotify
+  - DOMAIN-SUFFIX,spotifycdn.net,🎶 Spotify
+  - DOMAIN-SUFFIX,apple.com,🍎 Apple
+  - DOMAIN-SUFFIX,icloud.com,🍎 Apple
+  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 Apple
+  - DOMAIN-SUFFIX,cdn-apple.com,🍎 Apple
+  - DOMAIN-SUFFIX,apple-mapkit.com,🍎 Apple
+  - DOMAIN-SUFFIX,mzstatic.com,🍎 Apple
+  - DOMAIN-SUFFIX,steampowered.com,🎮 Steam
+  - DOMAIN-SUFFIX,steamcommunity.com,🎮 Steam
+  - DOMAIN-SUFFIX,steamstatic.com,🎮 Steam
+  - DOMAIN-SUFFIX,steamcontent.com,🎮 Steam
+  - DOMAIN-SUFFIX,steamgames.com,🎮 Steam
+  - DOMAIN-SUFFIX,steamserver.net,🎮 Steam
+  - DOMAIN-SUFFIX,github.com,Proxy
+  - DOMAIN-SUFFIX,githubusercontent.com,Proxy
+  - DOMAIN-SUFFIX,githubassets.com,Proxy
+  - GEOIP,CN,DIRECT
+  - MATCH,🐟 漏网之鱼
