@@ -64,6 +64,9 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      - name: Copy rule-provider files (.mrs) into Pages output
+        run: cp -f cn.mrs cnip.mrs games-cn.mrs public/
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
